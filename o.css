@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+.global
+{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.case1-global
+{
+    display: flex;
+    width: 1,592.79px;
+    height: 53.72px;
+    margin: 75.64px;
+    margin-left: 183.6px;
+    gap: 15%;
+    justify-content: space-around;
+}
+.little img
+{
+    display: flex;
+    justify-content: space-between;
+    width: 26px;
+    height: 33px;
+    border: 2px;
+}
+.little h1
+{
+    display: flex;
+    margin-top: -30px;
+    width: 26px;
+    height: 33px;
+    gap: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: right;
+    color: #274C5B;
+    margin-left: 35px;
+}
+.menu
+{
+    width: 505px;
+    height: 30px;
+}
+
+.menu li
+{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+}
+.point img
+{
+    display: flex;
+    width: 2%;
+    rotate: 90deg;
+    margin-top: -5%;
+    
+}
+ul
+{
+    list-style: none;
+    gap: 10px;
+}
+.banner
+{
+    width: 100%;
+    height: 90vh;
+  
+}
+.cent
+{
+   
+    width: 450px;
+    height: 405px;
+    top: 451px;
+    left: 260px;
+    gap: 10px;
+    margin-top: -30%;
+    margin-left: 15%;
+}
+.banner img
+{
+    margin-left: 40%;
+    height: 90vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.banner p
+{
+    font-family:Brush Script MT;
+    font-family: "Yellowtail", cursive;
+    font-size: 26px;
+    text-align: left;
+    color: yellowgreen;
+
+}
+.banner h1
+{
+    color: #274C5B;
+}
+.dec p
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #274C5B;
+    margin-bottom: -1%;
+}
+
+.dec img
+{
+    margin-top: -145%;
+    margin-left: 55%;
+    width: 20%;
+    position: relative;
+}
+
+
+ button
+{
+    width: 194px;
+    height: 70px;
+    border-radius: 16px;
+    background-color: #EFD372;
+}
+.bouton
+{
+    padding: 5%;
+    margin-left: -25%;
+}
+.fruit
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 -10px   
+}
+
+.section-banana 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Alignement à droite */
+    color: #274C5B; /* Couleur du texte */
+    padding: 20px; /* Espacement autour du contenu */
+    margin: 0 10px; 
+    
+    
+    
+}
+.section-banana img
+{
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+    margin-left: 35%;
+}
+.text-naturel
+{
+    text-align: left;
+    position: absolute;/* Alignement du texte à droite */
+    margin-left: -55%;
+    color: white;
+}
+
+.text1,.text-naturel {
+    margin: 0; /* Réinitialiser les marges par défaut */
+    font-family: Yellowtail;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+}
+.text2,.text-naturel {
+    margin: 0; /* Réinitialiser les marges par défaut */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 26px; 
+}
+.section-legumes 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Alignement à droite */
+    color:#274C5B; /* Couleur du texte */
+    padding: 20px; /* Espacement autour du contenu */
+    margin: 0 10px;  
+}
+.section-legumes img
+{
+    max-width:  70%;
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+    margin-right: 35%;
+}
+.text-legumes
+{
+    text-align: left;
+    position: absolute; /* Alignement du texte à droite */
+    margin-left: -30%;
+}
+
+.text-legumes p {
+    margin: 0; /* Réinitialiser les marges par défaut */
+}
+
+.legumes
+{
+    width: 600px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+    margin-left: 40px;
+    background-image: url(prune.png);
+    position: relative;
+    
+}
+.orange
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    top: 1813px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F9F8F8;
+    border-radius: 3px ;
+    padding: 5px;
+}
+.orond img
+{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 1%;
+    border: solid black;
+}
+.cadre-apropos
+{
+    float: left;
+    width: 602px;
+    height: 400px;
+    border: solid black;
+    margin-right: 5%;
+    margin-left: 15%;
+}
+.Nous{
+    width: 117.03px;
+    height: 19px;
+}
+.Nous p
+{
+    font-family: Yellowtail;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    color: #7EB693;
+    margin-top: -5px;
+}
+.travail 
+{   
+    display: flex;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 800;
+    text-align: left;
+    color: #274C5B;
+}
+.simp p
+{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #274C5B;
+      
+}
+.bio h5
+{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    color: #274C5B;
+    margin-top: -3%;
+    margin-top: -10%;
+}
+.bio p
+{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #274C5B;
+    margin-left:10% ;
+}
+.bio img
+{
+    justify-content: start;
+    width: 10%;
+    padding: 3%;
+    text-align: right;
+    margin-left: -3;
+}
+.norm h5
+{
+    font-family: Roboto;
+    font-size: 10px;
+    text-align: left;
+    color: #274C5B;
+    margin-left:10% ;
+    margin-top: 0.5%;
+}
+.norm p
+{
+    font-family: Roboto;
+    font-size: 10px;
+    text-align: left;
+    color: #274C5B;
+    margin-top: -2%;
+    margin-left:10% 
+}
+.norm img
+{
+    justify-content: start;
+    width: 10%;
+    padding: 3%;
+    flex: 1;
+    text-align: right;
+    margin-left: -14%;
+}
+
+.temoignage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    color: #274C5B;
+  }
+.contenu{
+    font-size: 8px;
+    line-height: 1.5;
+    color: #274C5B;
+    margin-top: -3%;
+}
+.auteur
+{
+    font-style: italic;
+    margin-top: 5px;
+    color: #274C5B;
+}
+.titre {
+    font-size: 15px;
+    font-weight: bold;
+    color: #274C5B; 
+}
+.elli
+{
+    display: flex;
+    justify-content: center;  
+}
+.ellipse {
+    width: 10px; /* Largeur de l'ellipse */
+    height: 5px; /* Hauteur de l'ellipse */
+    border-radius:  50%; /* Crée une forme elliptique */
+    background-color:gray; /* Couleur de fond */
+    margin: 0 2px;
+}
+.bordered {
+   background-color:#7EB693;
+}
+.texto {
+    position: absolute;
+    bottom: 10; /* Positionnement en bas */
+    left: 50%; /* Positionnement au milieu horizontalement */
+    transform: translateX(-50%); /* Décalage horizontal de -50% */
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent */
+    padding: 20px; /* Espacement intérieur */
+}
+
+.chater0
+{   
+    display: flex;
+    position: relative;
+    width: 50px;
+    justify-content: center;
+    margin-top: 35%;
+    
+}
+.chater
+{   
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    margin-right: 70%;
+    
+}
+.chaters
+{
+    position: absolute;
+    font-size: 20px;
+}
+.chaterz
+{
+    position: absolute;
+    font-size: 15px;
+}
+.chater1
+{   
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    margin-right: 20%;
+    
+}
+.chaterx
+{
+    position: absolute;
+    font-size: 15px;
+}
+.chater2
+{   
+    display: flex;
+    position: relative;
+    width: 50px;
+    justify-content: center;
+    margin-left: 70%;
+    
+}
+.chaterw
+{
+    position: absolute;
+    font-size: 15px;
+}
+.chater3
+{   
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 85%;
+    
+}
+.champ
+{
+    width: 100%;
+    height: auto;
+    border: solid blue;
+    padding-top: 2%;
+}
+.champ1
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.texto {
+    position: absolute;
+    bottom: 10; /* Positionnement en bas */
+    left: 50%; /* Positionnement au milieu horizontalement */
+    transform: translateX(-50%); /* Décalage horizontal de -50% */
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent */
+    padding: 20px; /* Espacement intérieur */
+}
+
